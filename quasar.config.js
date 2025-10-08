@@ -5,6 +5,9 @@ import { defineConfig } from '#q-app/wrappers'
 
 export default defineConfig((/* ctx */) => {
   return {
+      build: {
+      publicPath: '/id-name-lastname/',
+      },
     plugins: [
         ['Notify']
       ],
